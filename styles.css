@@ -60,5 +60,6 @@ p {
 img {
   height: auto;
   width: 90%;
+    border-radius: 10px;
   
 }
