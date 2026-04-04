@@ -6,11 +6,11 @@
     --slate-900: hsl(218, 55%, 22%);
      --fw-normal: 400;
     --fw-bold: 700;
+    --box-shaddow: 10px 10px 10px rgba(128, 128, 128, 0.5);
 }
 
 html {
     font-family: Outfit, sans-serif;
-    font-size: 15px;
 }
 
 body {
@@ -20,23 +20,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 
     
 }
 
 h1 {
     font-weight: var(--fw-bold);
-  font-size: clamp(20px, 2vw, 26px);
+  font-size: clamp(1.1rem, 1.1rem + 0.6vw, 1.5rem);
   color: var(--slate-900);
   
 }
 
 p {
     font-weight: var(--fw-normal);
-    font-size: clamp(16px, 1.5vw, 20px);
-  color: var(--slate-600);
+    font-size: clamp(0.9rem, 1rem + 0.6vw, 1.125rem);
+  color: var(--slate-500);
 
 }
 
@@ -55,10 +56,10 @@ p {
   padding: 5px 5px;
  text-align: center;
   gap: 10px;
-    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5);
-}
+    box-shadow: var(--box-shadow);
+                    }
 
-img {
+.karta img {
   height: auto;
   width: 90%;
     border-radius: 10px;
