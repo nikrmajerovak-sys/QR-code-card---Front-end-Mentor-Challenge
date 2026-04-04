@@ -1,5 +1,6 @@
 :root {
     --bila: hsl(0, 0%, 100%);
+    --body: hsl(212 21% 19%);
   --body: hwb(215 75% 9%);
     --slate-300: hsl(212, 45%, 89%);
     --slate-500: hsl(216, 15%, 48%);
@@ -63,6 +64,6 @@ p {
 .karta img {
   height: auto;
   width: 90%;
-    border-radius: 10px;
+    border-radius: inherit;
   
 }
