@@ -3,7 +3,7 @@
 This is a simple responsive QR code card built using HTML and CSS.
 
 ## 🔗 Live Site
-https://tvoje_jmeno.github.io/jmeno_repozitare/
+https://nikrmajerovak-sys.github.io/QR-code-card---Front-end-Mentor-Challenge/
 
 ## 📸 Screenshot
 ![Screenshot](obrazky/qr-kod.png)
