@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>QR kód</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@...&display=swap">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 
-    </head>
-    <body>
-        <main>
-            <figure class="karta">
-              <img src=obrazky/qr-kod.png alt="QR kód"> 
-                <figcaption>
-                    <h1>Improve your front-end skills by building projects</h1>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p></figcaption>
-            </figure>
-        </main>
+  
+  <title>Frontend Mentor | Blog preview card</title>
 
-    </body>
+</head>
+
+<body>
+  <section id="card">
+    <div id="ilustrace-img-container">
+    <img src="Images/illustration-article.svg">
+    </div>
+    <div class="text-karty">
+      <p><span class="tag">Learning</span></p>
+      <p class="publishing-date">Published 21 Dec 2023</p>
+      <h2><a href="http">HTML & CSS foundations</a></h2>
+      <p class="info">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div id="author-container">
+      <img class="icon" src="Images/image-avatar.webp" alt="favicon">
+      <p class="author">Greg Hooper</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">KS</a>.
+  </footer>
+  </>
+</body>
 </html>
